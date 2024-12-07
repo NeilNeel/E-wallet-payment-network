@@ -1,0 +1,50 @@
+/* SIDEBAR */
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-right: 2px solid #000;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 15px;
+}
+
+/* PROFILE IMAGE */
+.sidebar-profile-img {
+  width: 110px; /* Fixed width */
+  height: 110px; /* Fixed height */
+  object-fit: cover; /* Ensures image covers area without distortion */
+  /* border-radius: 50%; Circular image */
+  margin-bottom: 20px;
+}
+
+.sidebar-profile-details {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 15px;
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-name {
+  margin-bottom: 0.7rem;
+}

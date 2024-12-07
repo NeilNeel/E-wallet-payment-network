@@ -1,0 +1,9 @@
+.App {
+  display: flex;
+}
+
+.content {
+  width: calc(100% - 250px); /* Subtract sidebar width */
+  margin-left: 290px;
+  padding: 20px;
+}
